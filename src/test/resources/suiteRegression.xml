@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="daily-finance-automation">
+    <test name="User registration">
+               <classes>
+            <class name="testrunner.SignUpTestRunner">
+            </class>
+        </classes>
+    </test>
+    <test name="User can reset password">
+        <classes>
+            <class name="testrunner.ResetTestRunner">
+            </class>
+        </classes>
+    </test>
+    <test name="User can login after reset password and add 2 items">
+        <classes>
+            <class name="testrunner.AddItemsTestRunner">
+            </class>
+        </classes>
+    </test>
+    <test name="User can update gmail and login with updated gmail">
+        <classes>
+            <class name="testrunner.UserGmailTestRunner">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Admin can login and search user">
+        <classes>
+            <class name="testrunner.LoginTestRunner">
+            </class>
+        </classes>
+    </test>
+    <test name="User can be registered from CSV file">
+        <classes>
+            <class name="testrunner.UserRegisterCSVTestRunner">
+            </class>
+        </classes>
+    </test>
+    <test name="All the users from user table are written in a text file">
+        <classes>
+            <class name="testrunner.UserTableScrapTestRunner">
+            </class>
+        </classes>
+    </test>
+
+<!--    <test name="admin and user login">-->
+<!--        <classes>-->
+<!--            <class name="testrunner.LoginTestRunner">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
