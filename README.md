@@ -50,7 +50,8 @@ Two negative scenarios:
 - Admin credentials securely provided via command line:  
 ```bash gradle clean test -Pemail="admin@test.com" -Ppassword="admin123" ```
 - Successfully logs in and navigates to admin dashboard.
-- ## 10. Admin Email Search
+
+### 10. Admin Email Search
 - Search for the **updated user email** in the admin dashboard.  
 - Assert that the email is **displayed and counted correctly**.  
 
@@ -58,7 +59,7 @@ Two negative scenarios:
 - Register **3 users** from a CSV file.  
 - CSV is dynamically updated each time the function is executed.  
 
-## 12. Export Users to Text File
+### 12. Export Users to Text File
 - Login as admin.  
 - Retrieve all user data from the **admin user table**.  
 - Save user data in a **text file**.  
@@ -94,11 +95,11 @@ allure serve allure-results
 
  ##Output
  ---
- ###Allure Reports:
+ ### Allure Reports:
  <img width="1366" height="653" alt="img1" src="https://github.com/user-attachments/assets/ed98fa4e-6b75-459d-a63f-dd014f91c5b3" />
 <img width="1366" height="821" alt="img2" src="https://github.com/user-attachments/assets/33d640ce-f990-4607-8685-5c9b9a623a9b" />
 
- ###Full Automation Process:
+ ### Full Automation Process:
  https://github.com/user-attachments/assets/f0f3be68-96c5-47ff-8b29-609fde0938fb
 
 
